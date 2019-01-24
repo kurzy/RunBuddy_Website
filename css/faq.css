@@ -1,0 +1,22 @@
+#content_container {
+	margin: auto;
+	margin-top: 10px;
+	width: 1200px;
+	height: 600px;
+	border: 5px solid rgba(200, 200, 200, 0.75);
+	border-radius: 2px;
+	z-index: 1;
+	position: relative;
+}
+#content_container table {
+	width: 98%;
+	margin: auto;
+	border-spacing: 10px;
+}
+
+#content_container td img {
+	width: 400px;
+	border-radius: 3px;
+	border: 5px solid rgba(200, 200, 200, 0.65);
+}
+

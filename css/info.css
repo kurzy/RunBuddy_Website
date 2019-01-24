@@ -1,0 +1,66 @@
+#content_container {
+	margin: auto;
+	margin-top: 10px;
+	width: 1200px;
+	height: 600px;
+	border: 5px solid rgba(200, 200, 200, 0.75);
+	border-radius: 2px;
+	z-index: 1;
+	position: relative;
+}
+#content_container p {
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#content_container .form_container {
+	width: 45%;
+	margin: auto;
+	margin-top: 15px;
+}
+.form_container input, .form_container textarea {
+	width: 100%;
+	margin: 5px auto;
+	padding-left: 3px;
+	font-family: inherit;
+}
+.form_container input[type=text], .form_container input[type=password] {
+	height: 20px;
+}
+.form_container input[type=submit] {
+}
+#content_container textarea {
+	resize: none;
+	font-family: inherit;
+}
+.form_container input[type=submit] {
+	height: 25px;
+	width: 120px;
+	margin-top: 3px;
+}
+#modify_info_container {
+	float: left;
+	position: relative;
+	left: 20px;
+}
+#modify_password_container {
+	float: right;
+	position: relative; 
+	right: 20px;
+}
+#modify_profile_photo_container {
+	float: right;
+	position: relative;
+	right: 20px;
+	top: 30px;
+}
+
+
+
+
+
+
+
+
+

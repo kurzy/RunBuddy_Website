@@ -1,0 +1,47 @@
+Images – Public Domain CC0 (https://creativecommons.org/publicdomain/zero/1.0/)
+Smart Watch Photograph
+https://www.maxpixel.net/Technology-Tracker-Smart-Watch-Health-Fitness-2562329 
+Upload Photo Icon
+https://pixabay.com/en/upload-files-icon-1118928/ 
+Jogger Photograph Banner (Red)
+https://pxhere.com/en/photo/1032126
+Jogger Photograph Background
+https://pxhere.com/en/photo/1365750
+Jogger Photograph Banner (Blue)
+https://pixabay.com/en/landscape-mountains-sky-clouds-78058/
+Snow Hiker Photograph (Blue)
+https://www.pexels.com/photo/activity-adventure-alps-background-551854/ 
+Forest Hiker Photograph (Green)
+https://www.pexels.com/photo/adventure-backpack-clouds-conifers-269809/ 
+Photo Slider Arrows
+https://commons.wikimedia.org/wiki/File:Arrowleft_svg.svg
+Standby Icon
+https://en.m.wikipedia.org/wiki/File:IEC5009_Standby_Symbol.svg
+Speedometer Icon
+https://pixabay.com/en/speedo-speedometer-speed-auto-icon-1970476/
+Cross Icon
+https://svgsilh.com/image/146131.html
+Information Icon
+https://www.publicdomainpictures.net/en/view-image.php?image=118217&picture=info-round-symbol
+Steph User Profile Picture
+https://en.wikipedia.org/wiki/File:Aleya_Sen_Profile_Photo.jpg
+
+Images – Other Licenses
+User icon BLACK-01. (2014). Wiki User: MCruz. Used under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+https://commons.wikimedia.org/wiki/File:User_icon_BLACK-01.png 
+PJ Profile Picture. (2010). Wiki User: Pjthepiano. Used under CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/deed.en).
+https://commons.wikimedia.org/wiki/File:PJ_Profile_Picture.jpg
+Map marker font awesome. (2013). Dave Gandy. https://fortawesome.github.com/Font-Awesome.
+Used under CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/deed.en).
+https://commons.wikimedia.org/wiki/File:Map_marker_font_awesome.svg 
+Trophy font awesome. (2013). Dave Gandy. https://fortawesome.github.com/Font-Awesome.
+Used under CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/deed.en).
+https://en.wikipedia.org/wiki/File:Trophy_font_awesome.svg 
+
+Maps
+Leaflet Javascript Library. (2017). Vladimir Agafonkin. Used under BSD-2 Clause license (https://github.com/Leaflet/Leaflet/blob/master/LICENSE).
+https://leafletjs.com/ 
+
+OpenStreetMap. (2018). The OpenStreetMap Foundation. 
+Used under Open Data Commons Open Database License (https://opendatacommons.org/licenses/odbl/).
+https://www.openstreetmap.org 

@@ -1,0 +1,51 @@
+#content_container {
+	margin: auto;
+	margin-top: 10px;
+	width: 1200px;
+	height: 600px;
+	border: 2px solid rgba(200, 200, 200, 0.75);
+	border-radius: 2px;
+	z-index: 1;
+	position: relative;
+}
+#admin_controls {
+	width: 98%;
+	margin: auto;
+	text-align: center;
+}
+#admin_controls table td {
+	width: 50%;
+	border: 3px solid rgba(200, 200, 200, 0.85);
+	border-radius: 2px;
+	padding-bottom: 10px;
+}
+#admin_controls input, #admin_controls #add_user textarea {
+	width: 60%;
+	margin-top: 5px;
+}
+#admin_controls input[type=submit] {
+	width: 20%;
+}
+#admin_controls select {
+	width: 250px;
+	height: 22px;
+}
+#admin_controls #modify_user {
+	width: 100%;
+	position: relative;
+}
+#admin_controls #modify_user label {
+/*	display: block;*/
+	font-size: 0.7em;
+	position: absolute;
+	left: 50px;
+	margin-top: 7px;
+}
+
+#admin_controls #modify_user {
+	padding-left: 20px;
+}
+#admin_controls #modify_user textarea {
+	width: 60%;
+	margin-top: 5px;
+}

@@ -1,0 +1,62 @@
+/* 
+** index.css
+** Stylesheet for the 'index.html' page.
+*/
+
+
+#content_container {
+	margin: auto;
+	margin-top: 10px;
+	width: 1200px;
+	height: 550px;
+	border: 5px solid rgba(200, 200, 200, 0.75);
+	border-radius: 2px;
+	z-index: 1;
+	position: relative;
+}
+#content_container table {
+	width: 98%;
+	margin: auto;
+	margin-top: 15px;
+}
+#content_container td {
+	text-align: center;
+}
+#content_container #banner_heading {
+	font-size: 1.8em;
+	margin: 0;
+	margin-top: 10px;
+}
+#content_container #top_banner {
+	position: relative;
+}
+#content_container td img {
+	height: 200px;
+	width: 1150px;
+	border-radius: 5px;
+	-webkit-transition: opacity 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out;
+	-o-transition: opacity 2s ease-in-out;
+	transition: opacity 2s ease-in-out;
+}
+#content_container #top_banner_1 {
+	position: relative;
+}
+#content_container #top_banner_2 {
+	position: absolute;
+	left: 11px;
+	top: 1px;
+}
+#content_container #btm_banner_1 {
+	position: relative;
+}
+#content_container #btm_banner_2 {
+	position: absolute;
+	left: 25px;
+	bottom: 19px;
+}
+.banner_fade_out {
+	opacity: 0;
+}
+
+

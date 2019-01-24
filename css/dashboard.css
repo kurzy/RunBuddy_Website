@@ -1,0 +1,121 @@
+#content_container {
+	margin: auto;
+	margin-top: 10px;
+	width: 1200px;
+	height: 700px;
+	border: 2px solid rgba(200, 200, 200, 0.75);
+	border-radius: 2px;
+	z-index: 1;
+	position: relative;
+}
+#content_container table {
+	width: 98%;
+	margin: auto;
+	margin-top: 5px;
+}
+#content_container td {
+	border: 3px solid rgba(200, 200, 200, 0.65);
+	text-align: center;
+	height: 330px;
+	width: 50%;
+	position: relative;
+	vertical-align: top;
+}
+#content_container h3 {
+/*
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+*/
+	padding: 0px;
+	margin: 5px;
+}
+#content_container #maps_cell select {
+	
+}
+#content_container #map_div {
+	width: 98%;
+	border: 2px solid rgba(100, 100, 100, 0.7);
+	height: 85%;
+	margin: auto;
+	margin-top: 10px;
+}
+#ach_cell #ach_list {
+	width: 60%;
+	height: 83%;
+	margin: auto;
+	margin-top: 15px;
+	text-align: left;
+	list-style-image: url('../img/trophy_small.png');
+	overflow: hidden;
+	overflow-y: scroll;
+}
+#ach_cell #ach_list li {
+	margin-top: 20px;
+}
+#ach_cell #ach_list .blue_dot_underline {
+	border-bottom: 2px dotted lightblue;
+}
+#ach_cell #ach_list .ach_tooltip {
+	height: 30px;
+	width: 200px;
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: rgba(32, 101, 214, 0.75);
+	padding: 3px 5px;
+	color: rgba(255, 255, 255, 0.85);
+	display: inline;
+	font-size: 0.8em;
+	margin-left: 10px;
+}
+
+#content_container #photo_slider {
+	width: 80%;
+	height: 280px;
+	margin: auto;
+	overflow: hidden;
+}
+#photo_slider {
+	position: relative;
+}
+#photo_slider .displayed_photo {
+	height: 96%;
+	border: 4px solid #909090;
+}
+#photo_slider .slider_arrow {
+	height: 40px;
+	position: absolute;
+	top: 120px;
+	opacity: 0.55;
+	cursor: pointer;
+}
+#photo_slider .slider_arrow:hover {
+	-webkit-filter: invert(0.4);
+	filter: invert(0.4);
+}
+#photo_slider #slider_left_arrow {
+	left: 10px;
+}
+#photo_slider #slider_right_arrow {
+	right: 10px;
+}
+#photo_slider #upload_photo_img {
+	height: 30px;
+	position: absolute;
+	bottom: 0px;
+	right: 45%;
+	z-index: 10;
+	opacity: 0.8;
+	cursor: pointer;
+}
+#photo_slider #upload_photo_img:hover {
+	-webkit-filter: invert(0.9);
+	filter: invert(0.9);
+	opacity: 1.0;
+}
+
+
+
+
+

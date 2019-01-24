@@ -1,0 +1,86 @@
+#content_container {
+	margin: auto;
+	margin-top: 10px;
+	width: 1200px;
+	height: 700px;
+	border: 2px solid rgba(200, 200, 200, 0.75);
+	border-radius: 2px;
+	z-index: 1;
+	position: relative;
+}
+#content_container #search_bar {
+	margin: auto;
+	text-align: center;
+	height: 80px;
+	width: 98%;
+	margin: auto;
+	margin-top: 20px;
+}
+#search_bar form {
+	margin-top: 10px;
+}
+#search_bar input {
+	height: 35px;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+	border: 3px solid rgba(200, 200, 200, 0.65);
+	border-radius: 4px;
+	margin-left: 8px;
+}
+#search_bar input[type=text] {
+	width: 500px;
+	padding-left: 5px;
+}
+#search_bar input[type=submit] {
+	height: 43px;
+	background-color: #ffbc5e;
+	cursor: pointer;
+}
+#search_bar input[type=submit]:hover {
+	background-color: #ff9400;
+}
+#search_results {
+	border: 3px solid rgba(200, 200, 200, 0.7);
+	margin: auto;
+	height: 70%;
+	width: 98%;
+}
+#search_results h3 {
+	margin: auto;
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+#search_results ul {
+	margin: auto;
+	margin-top: 10px;
+	width: 60%;
+	font-size: 3em;
+}
+#search_results ul li {
+	padding-top: 50px;
+}
+#search_results .name_result {
+	font-weight: 800;
+	margin-left: 10px;
+}
+#search_results li:nth-child(1) {
+	list-style-image: url('../img/trophy_med_gold.png');
+}
+#search_results li:nth-child(2) {
+	list-style-image: url('../img/trophy_med_silver.png');
+}
+#search_results li:nth-child(3) {
+	list-style-image: url('../img/trophy_med_bronze.png');
+}
+
+
+
+
+
+
+
+
+
+

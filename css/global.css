@@ -1,0 +1,314 @@
+/*
+**  global.css
+** This stylesheet is applied to all webpages on the site.
+** eg. background, banner, navigation bar, menus, etc.
+*/
+
+body {
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #404040;
+	min-width: 700px;
+	min-height: 950px;
+}
+a {
+	text-decoration: none;
+}
+#bg_image_container {
+	width: 100%;
+	height: 100%;
+	max-height: 1000px;
+	min-width: 1600px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -100;
+	height: 1200px;
+	overflow: hidden;
+}
+#bg_image {
+	width: 100%;
+	position: relative;
+}
+#banner, #outer_navbar_container, #content_container {
+	background: rgba(255, 255, 255, 0.8);
+}
+
+#top_section {
+	border: 5px solid rgba(200, 200, 200, 0.65);
+	border-radius: 2px;
+	position: relative;
+	width: 1200px;
+	margin: auto;
+}
+#banner {
+	width: 1200px;
+	text-align: center;
+	font-size: 1.8em;
+	height: 100px;
+	color: #ff9400;
+}
+#banner h1 {
+	margin: 0;
+	line-height: 100px;
+	font-weight: 800;
+	user-select: none;
+}
+#banner .subtitle {
+	font-weight: 100;
+}
+
+#outer_navbar_container {
+	height: 80px;
+	width: 1200px;
+	margin: auto;
+	border-radius: 2px;
+	margin-top: 0px;
+}
+
+#inner_navbar_public {
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: bold;
+	float: left;
+	position: relative;
+	left: 10px;
+	top: 12px;
+}
+#inner_navbar_public ul {
+	list-style-type: none;
+	padding: 0;
+	position: relative;
+}
+#inner_navbar_public li {
+	display: inline;
+	margin: auto;
+	padding: 10px;
+	border: 3px solid rgba(200, 200, 200, 1);
+	border-radius: 2px;
+	background-color: #ffbc5e;
+}
+#inner_navbar_public li:hover {
+	background-color: #ff9400;
+} 
+#inner_navbar_public a, #inner_navbar_public a:visited, #inner_navbar_public a:active {
+	color: inherit;
+	text-decoration: none;
+}
+#footer {
+	position: absolute;
+	bottom: 5px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	color: #363636;
+	font-size: 0.6em;
+}
+#footer_inner {
+	width: 400px;
+	height: 20px;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.65);
+	border: 5px solid rgba(200, 200, 200, 0.65);
+	border-radius: 2px;
+}
+#footer_inner p {
+	line-height: 0px;
+}
+#user_menu_button {
+	min-width: 250px;
+	position: absolute;
+	right: 10px;
+	top: 110px;
+	cursor: pointer;
+	border: 3px solid rgba(200, 200, 200, 1.0);
+	border-radius: 2px;
+	z-index: 1000;
+}
+#user_menu_button #top_table {
+	margin: auto;
+	width: 100%;
+}
+#user_menu_button #top_table td {
+	text-align: center;
+	min-width: 60px;
+}
+#user_menu_button #default_user_img {
+	height: 40px;
+	width: auto;
+}
+#user_menu_button #down_arrow_img {
+	height: 15px;
+	width: 20px;
+}
+#user_menu_button #top_button {
+	background-color: #ffbc5e;
+}
+.user_menu_button_hover {
+	background-color: #ff9400;
+}
+#user_dropdown_menu {
+	position: relative;
+	font-size: 0.9em;
+}
+#user_dropdown_menu table {
+	margin: auto;
+	width: 100%;
+	border-collapse: collapse;
+	background-color: inherit;
+	background-color: white;
+}
+#user_dropdown_menu table tr:hover {
+	background-color: #ff9400;
+}
+
+#user_dropdown_menu table td:first-child {
+	text-align: center;
+}
+#user_dropdown_menu table td {
+	border-bottom: 1px solid #404040;
+	border-top: 1px solid #404040;
+	height: 35px;
+}
+#user_dropdown_menu td img {
+	height: 25px;
+	width: auto;
+}
+#user_dropdown_menu td a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.user_dropdown_menu_closed {
+	display: none;
+}
+.user_dropdown_menu_opened {
+	display: block;
+}
+
+.unselectable {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	-ms-user-select: none;
+}
+#login_div {
+	width: 500px;
+	margin: auto;
+	height: 450px;
+	border: 3px solid rgba(200, 200, 200, 0.75);
+	background-color: rgba(255,255,255,0.9);
+	position: absolute;
+	left: 40%;
+	top: 25%;
+	z-index: 1000;
+}
+#login_div #exit_button {
+	width: 20px;
+	float: right;
+	position: relative;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+#login_div #exit_button img {
+	width: 100%;
+}
+#login_div #login_title {
+	margin: auto;
+	text-align: center;
+	font-size: 1.3em;
+}
+#login_switchers {
+	margin: auto;
+	margin-top: -5px;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+#login_switchers td {
+	border: 1px solid #363636;
+	padding: 5px;
+	width: 70px;
+	text-align: center;
+	font-size: 13px;
+	cursor: pointer;
+}
+.hidden_switcher {
+	background-color: white;
+}
+.active_switcher {
+	background-color: #ffbc5e;
+}
+
+#login_div form {
+	width: 80%;
+	margin: auto;
+	margin-top: 15px;
+}
+#login_div input[type=text], #login_div textarea, #login_div input[type=password] {
+	width: 100%;
+	margin: 5px auto;
+	padding-left: 3px;
+	font-family: inherit;
+}
+#login_div input[type=text], #login_div input[type=password] {
+	height: 20px;
+}
+textarea {
+	resize: none;
+	font-family: inherit;
+}
+#login_div input[type=submit] {
+	height: 25px;
+	width: 80px;
+	margin-top: 3px;
+}
+.hidden_form {
+	display: none;
+}
+.active_form {
+	display: block;
+}
+.hidden {
+	display: none;
+}
+.visible {
+	display: block;
+}
+
+@keyframes fade_in {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+@keyframes fade_out {
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
+.fade_in_switch {
+	animation-name: fade_in;
+	animation-duration: 0.4s;
+}
+.banner_photo_fadein {
+	animation-name: fade_in;
+	animation-duration: 1.5s;
+}
+.banner_photo_fadeout {
+	animation-name: fade_out;
+	animation-duration: 1.5s;
+}
+
+.session_msg {
+	margin: auto;
+	border: 2px solid rgba(200, 200, 200, 0.65);
+	background: white;
+	border-radius: 2px;
+	background: white;
+	width: 500px;
+	text-align: center;
+}
+
+
+
+/*********************************** END Global ****************************************/
+
