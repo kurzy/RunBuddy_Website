@@ -1,7 +1,7 @@
 # RunBuddy_Website
 A website built using HTML/CSS, Javascript, PHP. Uses AJAX communication and MySQL database.
 
-RunBuddy lets users track and review their runs online.
+RunBuddy is a platform that lets users track and review their running routes online.
 
 ## Home
 ![Home page preview](https://github.com/kurzy/RunBuddy_Website/blob/master/screenshots/home.jpg)
